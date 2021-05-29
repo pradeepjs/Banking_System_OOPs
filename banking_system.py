@@ -20,6 +20,7 @@ class Bank(User):
         self.amount = amount
         self.balance = self.balance+self.amount
         print("Your deposit: ",self.balance)
+        #I am doing well
 
     def withdraw(self,amount):
         self.amount = amount
